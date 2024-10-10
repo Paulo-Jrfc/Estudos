@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(234, 251, 253);
+}
+
+p{
+    font-size: 1.3rem;
+}
+.tabela{
+    width: 1000px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.tabela tr {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.tabela tr th{
+    font-size: 1.6rem;
+    color: red;
+    margin: 0px;
+    border: 1px solid black;
+    background-color: rgb(218, 218, 218);
+}
+
+.tabela tr td {
+    border: 1px solid black;
+    border-radius: 2px;
+    height: 40px;
+}

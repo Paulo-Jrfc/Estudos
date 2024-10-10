@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta IOF</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="card2">
+          <form class="form">
+            <p id="heading">Consulta IOF</p>
+            <div class="field">
+
+              <input type="text" id="nome" class="input-field" placeholder="Nome" autocomplete="off" required>
+
+            </div>
+            <div class="field">
+      
+              </svg>
+              <input type="text" id="sobrenome" class="input-field" placeholder="Sobrenome" required/>
+            </div>
+             <div class="field">
+      
+              </svg>
+              <input type="text" id="idade" class="input-field" placeholder="Idade" autocomplete="off" required>
+              <div id="mensagemErro" style="color: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);"></div>            </div>
+             <div class="field">
+      
+                </svg>
+                <input type="text" class="input-field"  id="cpf" name="cpf" placeholder="123.456.789-01" required>
+
+              
+              </div>
+              <div class="field">
+      
+                </svg>
+                <!-- <input type="text" id="renda" class="input-field" placeholder="Renda Mensal" required> -->
+                <input type="number" id="renda" class="input-field" placeholder="Renda Mensal" name="renda" required>
+                
+              </div>
+            
+            <div class="btn">
+              <button id="btn" class="button1" href="http://127.0.0.1:5500/resultado.html">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Calcular Imposto&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </button>
+            </div>
+          </form>
+        </div>
+      </div> 
+      <script type="module" src="JS/formatacao.js"></script>
+      <script type="module" src="JS/informacao.js"></script>
+      <script type="module" src="JS/calculoImposto.js"></script>
+</body>
+</html>

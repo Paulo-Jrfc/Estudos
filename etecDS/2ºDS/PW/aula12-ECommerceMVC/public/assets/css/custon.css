@@ -1,0 +1,243 @@
+  *{
+    font-size: 1.1rem;
+  }
+  
+  body {
+    background-color: rgb(228, 228, 228);
+    margin: 0;
+    padding: 0;
+  }
+  
+  p {
+    font-size: 1.1rem;
+  }
+
+  main{
+    width: 100%;
+  }
+
+  .flex{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .navbar img{
+    width: 100%;
+    height: 7vh;
+  }
+  .card{
+    margin: 15px 10px;
+    background-color: #f8f8f8!important;
+  }
+
+  .card-img-top{
+    width: 100%;
+    height: 15rem;
+    background-color: #ffffff;
+    border-bottom: var(--bs-card-border-width) solid var(--bs-card-border-color);
+  }
+
+  .navbar{
+    opacity: 75%;
+    background-color: black;
+  }
+
+  .carousel img{
+    height: 35rem;
+  }
+
+  .segunda-categoria{
+    background-color: rgb(91, 142, 236);
+  }
+
+  .pq-comprar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .descricao-pq-comprar{
+    width: 100%;
+  }
+
+  .imagem-pq-comprar{
+    text-align: end;
+    margin-left: 3vw;
+    width: 100%;
+  }
+
+  .footer{
+    box-shadow: 1px -1px 3px 0px #7e7e7e;;
+    border-top: 1px black;
+    padding: 1.5rem;
+    background-color: white;
+    width: 100%;
+  }
+
+  .produto{
+    gap: 40px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 100%;
+    border-radius: 5px;
+    margin: 2rem 0;
+    height: 416px;
+  }
+
+  @media screen and (max-width:400px) {
+    .produto{
+      flex-direction: wrap;
+      flex-direction: column;
+      height: 100%;
+      gap: 20px;
+    }
+
+    .descricao-img img{
+      height: 200px;
+    }
+
+  }
+
+  .descricao-img{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .descricao-img img{
+    max-height: 400px;
+  }
+
+  .descricao-texto{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .descricao{
+    background-color: white;
+    width: 100%;
+    border-radius: 5px;
+    margin: 2rem 0;
+    padding: 2rem;
+  }
+
+  #fornecedor{
+    color: red;
+  }
+
+  #preco{
+    font-size: 1.4rem;;
+  }
+
+  .login {
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+    font-weight: bold;
+    font-size: x-large;
+  }
+  
+  .card-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 350px;
+    width: 27vw;
+    flex-direction: column;
+    gap: 35px;
+    background: white;
+    box-shadow: 16px 16px 32px #c8c8c8,
+          -16px -16px 32px #fefefe;
+    border-radius: 8px;
+  }
+  
+  .inputBox {
+    position: relative;
+    width: 250px;
+  }
+  
+  .inputBox input {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    color: #000;
+    font-size: 1em;
+    background: transparent;
+    border-left: 2px solid #000;
+    border-bottom: 2px solid #000;
+    transition: 0.1s;
+    border-bottom-left-radius: 8px;
+  }
+  
+  .inputBox span {
+    margin-top: 5px;
+    position: absolute;
+    left: 0;
+    transform: translateY(-4px);
+    margin-left: 10px;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 12px;
+    color: #000;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 3px;
+    border-radius: 8px;
+  }
+  
+  .inputBox input:valid~span,
+  .inputBox input:focus~span {
+    transform: translateX(113px) translateY(-15px);
+    font-size: 0.8em;
+    padding: 5px 10px;
+    background: #000;
+    letter-spacing: 0.2em;
+    color: #fff;
+    border: 2px;
+  }
+  
+  .inputBox input:valid,
+  .inputBox input:focus {
+    border: 2px solid #000;
+    border-radius: 8px;
+  }
+  
+  .enter {
+    height: 45px;
+    width: 100px;
+    border-radius: 5px;
+    border: 2px solid #000;
+    cursor: pointer;
+    background-color: transparent;
+    transition: 0.5s;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-bottom: 1em;
+  }
+  
+  .enter:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }
+  
+.fixa-centro{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

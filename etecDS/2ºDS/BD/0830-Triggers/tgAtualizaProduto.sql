@@ -1,0 +1,3 @@
+/*Criar um trigger que, quando for inserida uma nova entrada de produtos
+na tbEntradaProduto, a quantidade desse produto seja atualizada e
+aumentada na tabela tbProduto;*/CREATE TRIGGER tgAtualizaProduto ON tbEntradaProdutoAFTER INSERTASBEGIN	DECLARE @codProdutoEntrada INT, @qtdEntradaProduto INT	SET @codProdutoEntrada = (SELECT codProduto FROM inserted)	SET @qtdEntradaProduto = (SELECT quantidadeEntradaProduto FROM inserted)	UPDATE tbProduto	SET qtdProduto = qtdProduto + @qtdEntradaProduto	WHERE codProduto = @codProdutoEntradaEND-- EXECUTE OS BLOCOS ABAIXO JUNTOS PARA VISUALIZAÇÃOSELECT * FROM tbProduto WHERE codProduto = 1INSERT INTO tbEntradaProduto(codProduto, quantidadeEntradaProduto) VALUES(1, 100)SELECT * FROM tbProduto WHERE codProduto = 1

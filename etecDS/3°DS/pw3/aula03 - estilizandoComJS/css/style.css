@@ -1,0 +1,30 @@
+.reprovados{
+    background-color: red;
+    border: dashed red 5px;
+    font-size: 25px;
+    padding: 20px;
+}
+.primeiros{
+    background-color: yellow;
+    border: dashed black 5px;
+}
+.desafio01{
+    background-color: rgb(191, 191, 0);
+    color: black;
+    border: dashed 2px yellow;
+}
+.desafio02 td{
+    background-color: rgb(234, 84, 84);
+    border: solid black 3px ;
+    border-radius: 15px;
+    font-size: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: separate;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}

@@ -1,0 +1,41 @@
+import {Text, View, StyleSheet} from 'react-native'
+
+
+
+
+export default function App (){
+  return(
+    <View style={estilo.container}>
+      <Text style={estilo.hiperText}>Hello World</Text>
+      <Text style={estilo.text}>Hello World.</Text>
+      <Text style={estilo.text}>Hello World.</Text>
+      <Image source={{uri:'https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.motor1.com%2Fimages%2Fmgl%2FXxZyk%2Fs3%2Fmanhart-vw-golf-gti-290.jpg&tbnid=LOPa5HO9elT-7M&vet=12ahUKEwjrnvCgps6EAxUsN7kGHdFsCOIQMygAegQIARBv..i&imgrefurl=https%3A%2F%2Fmotor1.uol.com.br%2Fnews%2F508941%2Fgolf-gti-turbo-preparacao-manhart%2F&docid=giipHnSBf2Ih1M&w=1280&h=720&q=golf%20gti&ved=2ahUKEwjrnvCgps6EAxUsN7kGHdFsCOIQMygAegQIARBv'}}></Image>
+    </View>
+    
+  );
+}
+
+const estilo = StyleSheet.create({
+
+  hiperText:{
+    fontSize:40,
+    color:"yellow",
+    textAlign:"center",
+    // borderBottomColor:"black" solid 1px
+  },
+  text:{
+    fontSize:20,
+    color:"white"
+  },
+
+  container:{
+    backgroundColor:"purple",
+    flex:1
+  },
+
+  div:{
+    fontSize:200
+  }
+
+})
+

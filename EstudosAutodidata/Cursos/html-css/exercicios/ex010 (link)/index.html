@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon(confere).ico" type="image/x-icon">
+    <title>Trabalhando com links</title>
+    <style>
+        body {
+            background-color: blanchedalmond;
+        }
+        mark {
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <h1>Links Externos / Internos</h1>
+    <h2>Usando link externos</h2>
+    <p>Você pode acessar o meu <a href="https://gustavoguanabara.github.io" target="_blank" rel="external">reporitório publico no GitHub</a></p>
+    <p>Você também pode acessar o meu <a href="https://youtube.com/cursoemvideo/">canal gratuito no YoutTube</a></p>
+    <h3>E assim ficou o código:</h3>
+    <pre>
+        <code>
+            &lt;p&gt;Você pode acessar o meu &lt;a href="https://gustavoguanabara.github.io" target="_blank" rel="external"&gt;reporitório publico no GitHub&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;Você também pode acessar o meu &lt;a href="https://youtube.com/cursoemvideo/"&gt;canal gratuito no YoutTube&lt;/a&gt;&lt;/p&gt;
+        </code>
+    </pre>
+<p>As tags( <mark>taget="_blank"</mark> e a tag <mark>rel="external"</mark> ) dentro da tag &lt;a href=""&gt;servem para redirecionar um link externo para uma nova guia, permitindo que o seu site ainda fique aberto para que o cliente consiga voltar ao seu site. <br> Podemos ver a diferença abrindo os sites, o site do GiTHub tem essa função ativada, já o site do Youtube não tem essa função ativada.</p>
+<h2>Usando link internos</h2>
+<p>Esta é a primeira página do site. Se você quiser pode também acessar a <a href="pag002.html" rel="next">segunda página</a> do meu site</p>
+<h3>O código para links internos fica assim:</h3>
+<pre>
+    <code>
+        &lt;a href="pag002.html" rel="next"&gt;segunda página&lt;/a&gt; do meu site&lt;/p&gt;
+    </code>
+</pre>
+<p>Ao usarmos a tag (rel="next") dentro da tag &lt;a href=""&gt; estamos informando ao google qual o sistema de navegação que estamos criando no site. (next=posterior ou próxima página)</p>
+<p>Visualmente isto não interfere em nada.</p>
+<p>Você também pode acessar a nossa <a href="noticias/pag003.html" target="_self" rell="next">página de notícias</a></p>
+<h1>Links para downloads:</h1>
+<ul>
+    <li><a href="./livro/meu_livro.pdf - Ligações em toda parte.pdf" download="meu_livro.pdf" type="application/pdf">Baixar o livro em PDF</a></li>
+    <li><a href="livro/meu_livro.zip" download="meu_livro.zip" type="application/zip">Livro compactado em zip</a> </li>
+</ul>
+</body>
+</html>

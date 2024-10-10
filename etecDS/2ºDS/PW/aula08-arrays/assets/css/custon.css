@@ -1,0 +1,140 @@
+  *{
+    font-size: 1.1rem;
+  }
+  
+  body {
+    background-color: rgb(228, 228, 228);
+    margin: 0;
+    padding: 0;
+  }
+  
+  p {
+    font-size: 1.1rem;
+  }
+
+  main{
+    width: 100%;
+  }
+
+  .flex{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .navbar img{
+    width: 100%;
+    height: 7vh;
+  }
+  .card{
+    margin: 15px 10px;
+    background-color: #f8f8f8!important;
+  }
+
+  .card-img-top{
+    width: 100%;
+    height: 15rem;
+    background-color: #ffffff;
+    border-bottom: var(--bs-card-border-width) solid var(--bs-card-border-color);
+  }
+
+  .navbar{
+    opacity: 75%;
+    background-color: black;
+  }
+
+  .carousel img{
+    height: 35rem;
+  }
+
+  .segunda-categoria{
+    background-color: rgb(91, 142, 236);
+  }
+
+  .pq-comprar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .descricao-pq-comprar{
+    width: 100%;
+  }
+
+  .imagem-pq-comprar{
+    text-align: end;
+    margin-left: 3vw;
+    width: 100%;
+  }
+
+  .footer{
+    box-shadow: 1px -1px 3px 0px #7e7e7e;;
+    border-top: 1px black;
+    padding: 1.5rem;
+    background-color: white;
+    width: 100%;
+  }
+
+  .produto{
+    gap: 40px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 100%;
+    border-radius: 5px;
+    margin: 2rem 0;
+    height: 416px;
+  }
+
+  @media screen and (max-width:400px) {
+    .produto{
+      flex-direction: wrap;
+      flex-direction: column;
+      height: 100%;
+      gap: 20px;
+    }
+
+    .descricao-img img{
+      height: 200px;
+    }
+
+  }
+
+  .descricao-img{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .descricao-img img{
+    max-height: 400px;
+  }
+
+  .descricao-texto{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .descricao{
+    background-color: white;
+    width: 100%;
+    border-radius: 5px;
+    margin: 2rem 0;
+    padding: 2rem;
+  }
+
+  #fornecedor{
+    color: red;
+  }
+
+  #preco{
+    font-size: 1.4rem;;
+  }

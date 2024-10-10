@@ -1,0 +1,62 @@
+
+import { StyleSheet, Text, View, Image } from 'react-native';
+
+export default function App() {
+  return (
+    <View style={styles.container}>
+
+    X<Text style = {styles.text}>Aula 01</Text  >
+
+      <View style = {styles.card}>
+        <Image style = {styles.figura} source = {{uri:'https://png.pngtree.com/png-clipart/20230411/original/pngtree-the-books-without-background-png-image_9043527.png'}}></Image>
+        <Image style = {styles.figura} source = {require('./assets/ThinkVision_P32p_30_CT2_03.avif')}></Image>
+      </View>
+
+      <View style = {styles.card}>
+        <Image style = {styles.figura} source = {{uri:'https://png.pngtree.com/png-clipart/20230411/original/pngtree-the-books-without-background-png-image_9043527.png'}}></Image>
+        <Image style = {styles.figura} source = {require('./assets/ThinkVision_P32p_30_CT2_03.avif')}></Image>
+      </View>
+      
+      <Text style = {styles.text}>Livros e Monitor!</Text>
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: 'purple',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  figura:{
+    width:100,
+    height:100,
+    marginLeft: 20,
+  },
+  card: {
+    backgroundColor: 'yellow',
+    height:250,
+    width: "90%",
+    alignItems: 'center',
+    justifyContent: 'center',
+    flexDirection: 'row',
+    borderColor: "black",
+    borderWidth: 4,
+    borderRadius: 20,
+    marginBottom: 20
+  },
+  text: {
+    marginTop: 20,
+    width: "90%",
+    textAlign: "center",
+    backgroundColor: "yellow",
+    fontSize: 40,
+    fontWeight: "bold",
+    color: "purple",
+    borderColor: "black",
+    borderWidth: 4,
+    borderRadius: 20,
+    marginBottom: 20
+  }
+});

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon(explosão).ico" type="image/x-icon">
+    <title>Listas</title>
+    <style>
+        body {
+            background-color: rgb(231, 231, 168);
+        }
+        mark {
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas ordenadas</h2>
+    <ol type="1" start="1">
+        <li>acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar Café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para a faculdade</li>
+        <li>Almoçar</li>
+        <li>Ir para o trabalho</li>
+        <li>Voltar para casa</li>
+        <li>Jantar</li>
+        <li>Dormir</li>
+    </ol> 
+        <h3>Podemos usar a tag &lt;li&gt;, para uma melhor organização da nossa lista veja o código a seguir:</h3>
+    <pre> 
+        <code>
+                &lt;ol type="1" start="1"&gt;
+                    &lt;li&gt;acordar&lt;/li&gt;
+                    &lt;li&gt;Ligar para o João
+                    &lt;li&gt;Tomar Café
+                    &lt;li&gt;Escovar os dentes
+                    &lt;li&gt;Ir para a faculdade
+                    &lt;li&gt;Almoçar
+                    &lt;li&gt;Ir para o trabalho
+                    &lt;li&gt;Voltar para casa
+                    &lt;li&gt;Jantar
+                    &lt;li&gt;Dormir
+                &lt;/ol&gt;
+        </code>
+    </pre>
+        
+    <h3>Temos algumas opçoes para organização do código, atravez do (type) que esta dentro da tag &lt;ol&gt; podemos escolher as seguintes opções:.</h3>
+    <P>A=Alfabeto em letras maiusculas</P>
+    <P>a=Alfabeto em letras minusculas</P>
+    <p>1=sequencia númerica</p>
+    <p>I=Números romanos maisculos</p>
+    <p>i=Números romanos minusculos</p>
+    <h4>Com a tag &lt;start&gt; dentro da tag &lt;ol&gt; definimos a partir de qual letra / número deve começar.</h4>
+    <h2>Lista não ordenadas</h2>
+    <ul type="">
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Alface</li>
+        <li>manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+    <h3>Para as listas não ordenadas, o código fica assim:</h3>
+        <pre>
+            <code>
+                &lt;code&gt;
+                    &lt;ul type=""&gt;
+                        &lt;li&gt;Pão&lt/li&gt;
+                        &lt;li&gt;Leite&lt;/li&gt;
+                        &lt;li&gt;Tomate
+                        &lt;li&gt;Alface
+                        &lt;li&gt;manteiga
+                        &lt;li&gt;Arroz
+                        &lt;li&gt;Feijão
+                    &lt;/ul&gt;
+                &lt;/code&gt;
+            </code>    
+        </pre>
+        <p>Vale lembrar que a tag &lt;li&gt; não precisa ser fechada com a tag &lt;/li&gt;</p>
+    <h3>Temos algumas opçoes de layout para o ícone que vem antes do item da lista, veja a segui:</h3>
+    <ul type="disc">
+        <li>disc</li>
+    </ul>
+    <ul type="circle">
+        <li>circle</li>
+    </ul>
+    <ul type="square">
+        <li>square</li>
+    </ul>
+    <p>Mudamos esse layout atravez do <u>type</u> de dentro da tag <u>ul</u>  &lt;ul type="(opção escolhida)"&gt;</p>
+    <h2>Minhas linguagens favoritas:</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clip</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5">
+            <li>PHP</li>
+            <li>Pyton</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+        <h2>Meus jogos favoritos:</h2>
+        <ol>
+            <li>NES</li>
+            <ul Type="square">
+                <li>Mario Bros</li>
+                <ul type="circle">
+                    <li>Mario: Lost Levels</li>
+                    <li>Mario Bros 3</li>
+                </ul>
+                <li>Ninja Gainden</li>
+            </ul>
+            <li>SNES</li>
+            <ul Type="square">
+                <li>Mario</li>
+                <li>Donkey kong</li>
+            </ul>
+            <li>PlayStation</li>
+            <ul Type="square">
+                <li>Final Fantasy</li>
+                <li>Castlevania</li>
+            </ul>
+        </ol>
+        <h3>Como vismos acima, conseguimos colocar uma lista dentro da outra(<mark >lista dentro de lista</mark>), veja como ficou o código a seguir:</h3>
+        <h2>Meus jogos favoritos:</h2>
+        <pre>
+            <code>
+            &lt;ol&gt;
+                &lt;li&gt;NES&lt;/li&gt;
+                &lt;ul Type="square"&gt;
+                    &lt;li&gt;Mario Bros&lt;/li&gt;
+                    &lt;ul type="circle"&gt;
+                        &lt;li&gt;Mario: Lost Levels
+                        &lt;li&gt;Mario Bros 3
+                    &lt;/ul&gt;
+                    &lt;li&gt;Ninja Gainden
+                &lt;/ul&gt;
+                &lt;li&gt;SNES
+                &lt;ul Type="square"&gt;
+                        &lt;li&gt;Mario
+                        &lt;li&gt;Donkey kong
+                    &lt;/ul&gt;
+                    &lt;li&gt;PlayStation
+                    &lt;ul Type="square"&gt;
+                        &lt;li&gt;Final Fantasy
+                        &lt;li&gt;Castlevania
+                    &lt;/ul&gt;
+                &lt;/ol&gt;
+            </code>
+        </pre>
+        <p>Vale lembrar que a tag &lt;li&gt; não precisa ser fechada.</p>
+    </ol>
+    <h2>Lista de definições</h2>
+    <dl>
+        <dt> <mark>Termo</mark></dt>
+        <dd><mark>Descrição</mark></dd>
+    </dl>
+    <h3>Veja a seguir os exemplos:</h4>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação de conteudo de um site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do desining de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação da interatividade de um site.</dd>
+    </dl>
+    <h3>Veja a seguir como ficou o código.</h3>
+    <pre>
+        <code>
+           &ltdl&gt;
+               &lt;dt&gt;HTML&lt;/dt&gt;
+               &lt;dd&gt;Linguagem de marcação para a criação de conteudo de um site.&lt;/dd&gt;
+               &lt;dt&gt;CSS
+               &lt;dd&gt;Linguagem de marcação para a criação do desining de um site.
+                &lt;dt&gt;JavaScript
+               &lt;dd&gt;Linguagem de programação para a criação da interatividade de um site.
+            &lt;/dl&gt;
+        </code>
+    </pre>
+</body>
+</html>

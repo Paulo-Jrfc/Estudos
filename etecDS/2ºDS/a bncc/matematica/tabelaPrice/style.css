@@ -1,0 +1,95 @@
+.tabela{
+    width: 1000px;
+    background-color: white;
+    margin: 5vh auto;
+}
+
+.tabela tr {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.tabela tr th{
+    font-size: 1.6rem;
+    color: red;
+    margin: 0px;
+    border: 1px solid black;
+    background-color: rgb(218, 218, 218);
+}
+
+.tabela tr td {
+    height: 40px;
+}
+
+body{
+    background: linear-gradient(100deg,#092266 , #000000 );
+    font-family: sans-serif;
+    display: block;
+    align-content: center;
+    align-items: center;
+}
+.quadrado{
+    box-shadow: 1px 1px 5px #f3f3f3;
+    background-color: rgb(255, 255, 255);
+    padding: 90px;
+    border-radius: 9px;
+    width: 700px;
+    height: 300px;
+    margin: 23vh auto;
+    
+}
+
+.menor {
+    width: 500px;
+    height: 200px;
+}
+
+.top{
+    text-align: center;
+}
+.user1{
+    border-radius: 50px;
+    width: 100px;
+    box-shadow: 10px 5px 7px #010322;
+}
+.titulo{
+    color: red;
+}
+
+.titulo-maior{
+    color: red;
+    font-size: 2.5rem;
+}
+
+.preto {
+    color: black;
+}
+
+.grupos > label{
+    width: 100%;
+    color: rgb(66, 66, 66);
+    display: block;
+}
+.grupos > input{
+    border-radius: 5px;
+    outline: 0;
+    width: 100%;
+    height: 30px;
+}
+.grupos{
+    margin-bottom: 18px;
+    
+}
+.botao{
+    border-radius: 30px;
+    background: linear-gradient(10deg,#ff0000 1%, #211f85 99%);  
+    width: 100%;
+    padding: 15px;
+    color: white;
+    border: 0px;
+    outline: 0;
+}
+.grupos button:hover{
+    background: linear-gradient(90deg,#ff0000 , #ff4800 );  
+    
+}

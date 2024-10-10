@@ -1,0 +1,204 @@
+body{
+  margin-top: 30px;
+  background: hsla(205, 46%, 10%, 1);
+
+background: linear-gradient(90deg, hsla(205, 46%, 10%, 1) 0%, rgb(30, 50, 54) 50%, rgb(30, 50, 54)100%);
+
+background: -moz-linear-gradient(90deg, hsla(205, 46%, 10%, 1) 0%, hsla(191, 28%, 23%, 1) 50%, rgb(30, 50, 54)100%);
+
+}
+*{
+  font-size: 1.3rem;
+}
+
+.card {
+    width: 450px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #e8e8e8;
+    box-shadow: 2px 2px 20px #96b7bd;
+    text-align: center;
+  }
+
+  .maior {
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+  
+  .card-header {
+    text-align: center;
+    margin-bottom: 20px
+  }
+  
+  .card-header .log {
+    margin: 0;
+    font-size: 24px;
+    color: black;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: 0.5s;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #ccc;
+    color: black;
+  }
+  
+
+
+  .form-group {
+    position: relative;
+    margin: 50px auto;
+    width: 200px;
+  }
+  
+  .form-group input[type="text"] {
+    font-size: 20px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    padding: 5px 0;
+    background-color: transparent;
+    outline: none;
+  }
+  
+
+  
+  .form-group input[type="text"]:focus ~ .label,
+  .form-group input[type="text"]:valid ~ .label {
+    top: -20px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .form-group .underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #000000;
+    transform: scaleX(0);
+    transition: all 0.3s ease;
+  }
+  
+  .form-group input[type="text"]:focus ~ .underline,
+  .form-group input[type="text"]:valid ~ .underline {
+    transform: scaleX(1);
+  }
+  
+  
+
+
+
+  button {
+    display: inline-block;
+    border-radius: 4px;  
+    background-color: #333;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 17px;
+    padding: 16px;
+    width: 100%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+   }
+   button:hover{
+    color: #000000;
+    background-color: #ccc;
+   }
+   
+   button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+   }
+   
+   button span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 0.5s;
+   }
+   
+   button:hover span {
+    padding-right: 15px;
+    
+   }
+   
+   button:hover span:after {
+    opacity: 1;
+    right: 0;
+    
+   }
+
+
+
+
+
+
+
+
+
+
+    .form-group select {
+      
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: transparent;
+    color: #000000;
+    font-size: 0.8rem;
+    border:#000000 2px solid;
+    border-radius: 0;
+    height: 34px;
+    width: 200px;
+  }
+  .form-group select:hover{
+    border: rgb(30, 50, 54) 2px solid;
+    border-radius: 5px;
+    transition: 0.2s;
+  }
+    
+      .form-group option {
+        height: 30px;
+        border: 1px solid #cbcbcb;
+        padding-left: 17px;
+        padding-top: 12px;}
+    
+      

@@ -1,0 +1,41 @@
+<div class="card">
+    <div class="card-header">
+      <div class="log">
+        <p>2) Elabore um algoritmo que receba o valor total de uma compra, calcule e exiba o valor final a ser pago de acordo com a forma de pagamento:
+            se a vista, aplicar 15% de desconto; caso a prazo, acrescentar 10% ao valor da compra
+        </p>
+      </div>
+      <div class="log">
+        <table border="2px solid" align="center" class="tabela">
+            <tr class="tr">
+                <th>Tipo Pagamento</th>
+                <th>Desconto</th>
+            </tr>
+            <tr class="tr">
+                <td>1</td>
+                <td>A Vista, 15% de desconto.</td>
+            </tr>
+            <tr class="tr">
+                <td>2</td>
+                <td>A prazo, 10% de desconto.</td>
+            </tr>          
+        </table>
+      </div>
+    </div>
+    <form method="GET" action="php/questao2.php">
+      <div class="form-group">
+        <label for="valorCompra">Insira o valor da compra: </label>
+        <input  name="valorCompra" type="text" required/>
+        <div class="underline"></div>
+      </div>
+      <div class="form-group">
+        <label for="escolha">Insira a escolha: </label>
+        <input  name="escolha" type="number" min="1" max="2" required/>
+        <div class="underline"></div>
+      </div>
+      <div class="form-group">
+        <input value="Calcular" type="submit"/>
+      </div>
+    </form>
+  </div>
+

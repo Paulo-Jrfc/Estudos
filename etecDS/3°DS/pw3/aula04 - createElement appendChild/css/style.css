@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 40 px;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.produto{
+    background-color: rgb(168, 179, 237);
+    border: solid 2px black;
+    padding: 10px;
+    width: 20%;
+    height: 20%;
+    margin: 20px;
+    flex: 1, 1, 100px;
+}
+.div_img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_img img{
+    border-radius: 50%;
+    width: 60px;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.emoji.ico" type="image/x-icon">
+    <title>Outras formatações</title>
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte / Pré-formatação</h2>
+    <p>O comando <code>document.gotElementById('teste')</code> é escreito em linguagem JavaScript (Fonte mono espaçada)</p>
+    <code>
+        num = int(input('digite um número'))
+        if num% 2 == 0
+            print(f'O número {num} é PAR)
+        else:
+            print(f'O número {num} é ÍMPAR)
+        print('Fim do programa')
+    </code> <!--pyton-->
+    <p>O código acima não tem indentaçao porque foi usado a tag &lt;code&gt;</p>
+    <pre>
+        <code>
+            num = int(input('digite um número'))
+            if num% 2 == 0
+                print(f'O número {num} é PAR)
+            else:
+                print(f'O número {num} é ÍMPAR)
+            print('Fim do programa')
+        </code>
+    </pre> <!--pyton--> <!--O código <pre> deixa com indentação na visão do cliente-->
+    O código acima tem indentação porque foi usado a tag &lt;pre&gt; antes da tag &lt;code&gt;
+
+    <h2>Este é o código completo:</h2>
+    <p> <pre>
+        
+            &lt;pre&gt;
+                &lt;code&gt;
+                    num = int(input('digite um número'))
+                    if num% 2 == 0
+                        print(f'O número {num} é PAR)
+                    else:
+                        print(f'O número {num} é ÍMPAR)
+                    print('Fim do programa')
+                &lt;/code&gt;
+            &lt;/pre&gt;
+        </pre>
+    </p>
+<p>O código <mark style="background-color:white;">&lt;code&gt</mark>; deixa na fone 'mono espaçada', que é uma ótima fonte para se utilizar quando se quer mostrar um código.</p>
+<p>O código <mark style="background-color:white">&lt;pre&gt;</mark> deixa com indentação na visão do cliente.</p>
+    <h2>Citações simples:</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p> <!--quando uma citação, usar o <q> ao invez das aspas(""), porque assim você da sentido a citação-->
+    <h2>Citações completas:</h2>
+    <p>Segundo Jeff Noble no seu livro HTML para Leigos</p>
+    <blockquote cite="https://books.google.com.br/books?id=E8ZtDwAAQBAJ&pg=PT2&dq=html+para+leigos&hl=pt-PT&sa=X&ved=2ahUKEwiWic6Mgs73AhUGuZUCHTT-AfMQ6AF6BAgCEAI#v=onepage&q=html%20para%20leigos&f=false">
+        A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto
+    </blockquote> <!--A tag (cite) dentro da tag <backquote> não ira aparecer para o usuario, mas usando ela os mescanismos de busca, o google, saberá que o livro está referenciado o livro que esta disponivel dentro do (cite)-->
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando</p> <!--A tag <abbr title="" não gera un link, mas ao passar o mouse encima vemos o significado da abreviação citada-->
+    <h2>Texto Invertido</h2>  
+    <p><bdo dir="rtl"> Estou aprendendo a criar coisas em HTML</bdo></bdo></p> <!--A tag <bdo dir=rtl> deixa todo o texto escrito invertido-->
+</body>
+</html>

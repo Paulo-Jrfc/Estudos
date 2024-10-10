@@ -1,0 +1,98 @@
+[
+    {
+        "nome": "Coca Cola Café Espresso Plus 220ml",
+        "descricao": "Coca Cola feita com Café",
+        "preco": 2.39,
+        "imgURL": "https://andinacocacola.vtexassets.com/arquivos/ids/155517/7894900025019_01.jpg?v=637722480275800000",
+        "fornecedor": "Coca-Cola",
+        "codProduto": 1
+    },
+    {
+        "nome": "Biscoito Club Social 144g 6u",
+        "descricao": "Pack Biscoito Salgado Original Club Social Pacote 144g 6 Unidades de 24g Cada",
+        "preco": 2.75,
+        "imgURL": "https://giassi.vtexassets.com/arquivos/ids/520627/Pack-Biscoito-Original-Club-Social-Pacote-144g-6-Unidades.png?v=637995487568400000",
+        "fornecedor": "Grupo Mondelez",
+        "codProduto": 2
+    },
+    {
+        "nome": "Rosquinha de Coco 500g",
+        "descricao": "Rosquinha de Coco 500g Panco, com coco ralado",
+        "preco": 5.43,
+        "imgURL": "https://www.panco.com.br/images/produtos/opt-png/biscoito/RosquinhaCoco500_2.png",
+        "fornecedor": "Panco Agradece",
+        "codProduto": 3
+    },
+    {
+        "nome": "Monster Energy Mango Loko 473ml",
+        "descricao": "Energético de Manga, Laranja, rementendo ao Dia de Los Muertos",
+        "preco": 8.90,
+        "imgURL": "https://www.imigrantesbebidas.com.br/bebida/images/products/full/88216-energetico-monster-energy-mango-loco-lata-473ml.jpg",
+        "fornecedor": "Coca-Cola",
+        "codProduto": 4
+    },
+    {
+        "nome": "Danone 1L",
+        "descricao": "É rico em cálcio e fonte de vitaminas sabor morango. Pode ser consumido puro ou misturado a outras receitas.",
+        "preco": 5.77,
+        "imgURL": "https://s3-sa-east-1.amazonaws.com/superimg/img.produtos/7891025320555/img_500_1.png",
+        "fornecedor": "Distribuidora Lopes",
+        "codProduto": 5
+    },
+    {
+        "nome": "Nickel Wound EXL110",
+        "descricao": "Cordas de guitarra Regular Light Gauge EXL110",
+        "preco": 34.89,
+        "imgURL": "https://imageswscdn.wslojas.com.br/files/3196/encordoamento-p-guitarra-daddario-010-nickel-wound-exl110-5063502.jpg",
+        "fornecedor": "Nickel Wound",
+        "codProduto": 6
+    },
+    {
+        "nome": "Amendoim Com Alho 320g",
+        "descricao": "Amendoim com Alho Dori 320g, com lascas de alho",
+        "preco": 5.78,
+        "imgURL": "https://giassi.vtexassets.com/arquivos/ids/513061/Amendoim-Torrado-com-Lascas-de-Alho-Dori-de-Boteco-Pacote-320g-.png?v=637995119936330000",
+        "fornecedor": "Dori",
+        "codProduto": 7
+    },
+    {
+        "nome": "Ovinhos de Amendoim Wasabi 140g",
+        "descricao": "Ovinhos de Amendoim Wasabi 140g Elma Chips",
+        "preco": 8.65,
+        "imgURL": "https://images-americanas.b2w.io/produtos/01/00/img/4341716/8/4341716875_1GG.jpg",
+        "fornecedor": "Elma Chips",
+        "codProduto": 8
+    },
+    {
+        "nome": "Amendoim Crocante Cebola e Salsa 150g",
+        "descricao": "Petitz Amendoim Crocante Cebola e Salsa Dorio 150g",
+        "preco": 9.65,
+        "imgURL": "https://cdn.shopify.com/s/files/1/0946/5368/products/pettiz_cebola_salsa_150g_2048x.jpg?v=1438741314",
+        "fornecedor": "Dori",
+        "codProduto": 9
+    },
+    {
+        "nome": "Wafer Look Chocolate Itamaraty 55g",
+        "descricao": "Biscoito wafer recheado sabor de chocolate, para você comer na hora que quiser ou usar como acompanhamento de sorvetes e sobremesas.",
+        "preco": 2.99,
+        "imgURL": "https://tfdfn2.vtexassets.com/arquivos/ids/225410/wafer-look-chocolate-itamaraty-55g.png?v=638186449300000000",
+        "fornecedor": "Itamaraty",
+        "codProduto": 10
+    },
+    {
+        "nome": "Diamante Negro Lacta 80g",
+        "descricao": "O icônico e inconfundível Diamante Negro traz a combinação perfeita entre chocolate ao leite Lacta e pedacinhos crocantes de açúcar e castanha junto com seu formato exclusivo. ",
+        "preco": 5.32,
+        "imgURL": "https://prezunic.vtexassets.com/arquivos/ids/158137/63ac2dce20a0ed320dd3559b.png?v=638078251078370000",
+        "fornecedor": "Lacta",
+        "codProduto": 11
+    },
+    {
+        "nome": "Panetone com Frutas Cristalizadas Bauducco 1Kg",
+        "descricao": "O tradicional Panettone Bauducco tem textura macia e a massa molhadinha, com frutas cristalizadas e uvas-passas.",
+        "preco": 37.86,
+        "imgURL": "https://static.wixstatic.com/media/53b202_bfa98a15e1d54d3e9d73aaeac3f57a6a~mv2_d_1200_1200_s_2.png/v1/fill/w_640,h_640,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/53b202_bfa98a15e1d54d3e9d73aaeac3f57a6a~mv2_d_1200_1200_s_2.png",
+        "fornecedor": "Bauducco",
+        "codProduto": 16
+    }
+]

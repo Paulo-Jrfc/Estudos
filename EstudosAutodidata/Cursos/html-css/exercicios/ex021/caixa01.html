@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+    <style>
+        h1{ /*block-level*/
+
+            /* podemos usar essas tags para alterar o tipo do Box.
+            display: block;
+            display: inline;
+            */
+            background-color: lightblue;
+            height: 300px;
+            width: 300px;
+
+            /*borda*/
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkslategray;
+
+            /*simplificando a borda*/
+            border: 10px solid darkslategray;
+
+
+            /*padding*/
+            padding-top: 10px; /*padding de cima*/
+            padding-right: 10px; /*padding da direita*/
+            padding-bottom: 10px; /*padding de baixo*/
+            padding-left: 10px; /*padding da esquerda*/
+
+            /*Simplificando padding*/
+            padding: 10px 10px 10px 10px;
+            /*Caso as bordas do padding forem iguais, poemos colorcar assim:*/
+            padding: 10px;
+            /*Se colocarmos apenas 2 valores no padding, ele reconhece um dos valores como encima e embaixo, e o outro valoir como nas laterais*/
+            /* 'padding: 10px 20px;' aqui por exemplo, o 10px é encima e exbaixo, e o 20px, é as laterais*/ 
+
+            /*margin*/
+            margin-top: 20px; /*margin de cima*/
+            margin-right: 20px; /*margin da direita*/
+            margin-bottom: 40px; /*margin de baixo*/
+            margin-left: 20px; /*margin da esquerda*/
+
+            /*Simplificando margin*/
+            margin: 20px 20px 40px 20px;
+
+            /*Tambem podemos fazer as magin assim:*/
+            margin: 20px auto 40px auto;
+
+            margin: auto; /*Centraliza automaticamente*/
+
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: red;
+
+
+        }
+
+        a { /*inline-level*/
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+
+            padding-top: 10px; /*padding de cima*/
+            padding-right: 10px; /*padding da direita*/
+            padding-bottom: 10px; /*padding de baixo*/
+            padding-left: 10px; /*padding da esquerda*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Caixas Box-Level</h1>
+    <p>Parágrafos támbem são exemplos de box-level, mas os <a href="#">Links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
+</body>
+</html>

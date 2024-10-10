@@ -1,0 +1,81 @@
+body{
+    background: linear-gradient(100deg,#092266 , #000000 );
+    font-family: sans-serif;
+    display: block;
+}
+.quadrado{
+    box-shadow: 1px 1px 5px #f3f3f3;
+    background-color: rgb(255, 255, 255);
+    padding: 90px;
+    border-radius: 9px;
+}
+
+.menor {
+    width: 500px;
+    height: 200px;
+}
+
+.maior{
+    width: 500px;
+    height: 300px;
+}
+form{
+    width: 700px;
+    margin: auto;
+    padding-top: 150px;
+}
+
+
+.top{
+    text-align: center;
+}
+.user1{
+    border-radius: 50px;
+    width: 100px;
+    box-shadow: 10px 5px 7px #010322;
+}
+.titulo{
+    color: red;
+}
+
+.titulo-maior{
+    color: red;
+    font-size: 2.5rem;
+}
+
+.preto {
+    color: black;
+}
+
+.grupos > label{
+    width: 100%;
+    color: rgb(66, 66, 66);
+    display: block;
+}
+.grupos > input{
+    border-radius: 5px;
+    outline: 0;
+    width: 100%;
+    height: 30px;
+}
+.grupos{
+    margin-bottom: 18px;
+    
+}
+.botao{
+    border-radius: 30px;
+    background: linear-gradient(10deg,#ff0000 1%, #211f85 99%);  
+    width: 100%;
+    padding: 15px;
+    color: white;
+    border: 0px;
+    outline: 0;
+}
+.grupos button:hover{
+    background: linear-gradient(90deg,#ff0000 , #ff4800 );  
+    
+}
+.tituloprimeiro h1{
+    color: rgb(131, 128, 128);
+    font-size: 5px;
+}

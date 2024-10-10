@@ -1,0 +1,22 @@
+link completo: https://docs.github.com/en/get-started/using-git/about-git
+
+Comandos básicos do Git
+Para usar o Git, os desenvolvedores usam comandos específicos para copiar, criar, alterar e combinar código. Esses comandos podem ser executados diretamente na linha de comando ou usando um aplicativo como GitHub Desktop. Aqui estão alguns comandos comuns para usar o Git:
+
+git initinicializa um novo repositório Git e começa a rastrear um diretório existente. Ele adiciona uma subpasta oculta ao diretório existente que abriga a estrutura de dados interna necessária para o controle de versão.
+
+git clonecria uma cópia local de um projeto que já existe remotamente. O clone inclui todos os arquivos, histórico e ramificações do projeto.
+
+git addencena uma mudança. O Git rastreia alterações na base de código de um desenvolvedor, mas é necessário preparar e tirar um instantâneo das alterações para incluí-las no histórico do projeto. Este comando executa a preparação, a primeira parte desse processo de duas etapas. Quaisquer alterações preparadas se tornarão parte do próximo snapshot e parte do histórico do projeto. Preparar e confirmar separadamente dá aos desenvolvedores controle total sobre o histórico de seu projeto sem alterar a forma como eles codificam e funcionam.
+
+git commitsalva o instantâneo no histórico do projeto e conclui o processo de controle de alterações. Resumindo, um commit funciona como tirar uma foto. Qualquer coisa que tenha sido testada git addse tornará parte do instantâneo com git commit.
+
+git statusmostra o status das alterações como não rastreadas, modificadas ou preparadas.
+
+git branchmostra as filiais que estão sendo trabalhadas localmente.
+
+git mergefunde linhas de desenvolvimento. Este comando normalmente é usado para combinar alterações feitas em duas ramificações distintas. Por exemplo, um desenvolvedor mesclaria quando deseja combinar alterações de uma ramificação de recurso na ramificação principal para implantação.
+
+git pullatualiza a linha local de desenvolvimento com atualizações de sua contraparte remota. Os desenvolvedores usam esse comando se um colega de equipe fez commits em uma ramificação remota e gostariam de refletir essas alterações em seu ambiente local.
+
+git pushatualiza o repositório remoto com quaisquer commits feitos localmente em uma ramificação.

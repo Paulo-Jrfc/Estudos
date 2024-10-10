@@ -1,0 +1,52 @@
+<div class="card">
+  <div class="card-header">
+    <div class="log">
+      <p>Crie um programa que leia o conceito de um aluno na disciplina PA-0015 e apresente uma explicação sobre ele.
+        Considere para explicação a tabela de conceitos a seguir:
+      </p>
+    </div>
+    <div class="log">
+      <table border="2px solid" align="center" class="tabela">
+        <tr class="tr">
+          <th>Conceitos</th>
+          <th>Significado</th>
+        </tr>
+        <tr class="tr">
+          <td>A</td>
+          <td>Excelente, você se dedicou muito e atingiu o nível máximo. Parabéns.</td>
+        </tr>
+        <tr class="tr">
+          <td>B</td>
+          <td>Você realizou tudo que proposto, continue assim. Talvez um pouco mais de esforço te leve ainda mais a frente.</td>
+        </tr>
+        <tr class="tr">
+          <td>C</td>
+          <td>Você tirou nota suficiente para finalizar o semestre, mas pode fazer mais.</td>
+        </tr>
+        <tr class="tr">
+          <td>D</td>
+          <td>Você tirou nota insuficiente, precisa melhorar.</td>
+        </tr>
+        <tr class="tr">
+          <td>E</td>
+          <td>Você deixou muito a desejar, precisa mudar com urgência.</td>
+        </tr>
+        <tr class="tr">
+          <td>F</td>
+          <td>Você não está vindo para o colégio para estudar, é imperativo uma mudança de perfil.</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <form method="GET" action="php/questao4.php">
+    <div class="form-group">
+      <label for="situacao">Insira o conceito do aluno: </label>
+      <input name="situacao" type="text" required />
+      <div class="underline"></div>
+    </div>
+    <div class="form-group">
+      <input value="Calcular" type="submit" />
+    </div>
+  </form>
+
+</div>

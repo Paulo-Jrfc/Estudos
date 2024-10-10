@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.io.ico" type="image/x-icon">
+    <title>Formatação de textos</title>
+    <style>
+        body {
+            background-color: rgba(96, 96, 100, 0.726);
+        }
+        mark {
+            background-color: lime;
+        }
+    </style>
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Negrito / Destaque</h2>    <!-- De preferencia não usar as tags <b> e <i> -->
+    <p>Nesta frase temos um <b>termo em negrito</b> usando a tag &lt;b&gt; (a tag &lt;b&gt; é uma tag não semantica) </p> <!--não semantica-->
+    <p>Nesta frase tenho um <strong>termo em destaque usando a tag &lt;strong&gt; (a tag &lt;strong&gt; é uma tag com semantica)</strong></p> <!--semantica-->
+    <h2>Itálico / Ênfase</h2>
+    <p>Nesta frase temos um <i>termo em itálico</i>, com a tag &lt;i&gt; (a tag &lt;i&gt; é uma tag sem semantica)</p> <!--ctrl +shift+P--> <!--não semantica-->
+    <p>Nesta frase temos um <em>termo em ênfase</em> usando a tg &lt;em&gt;(a tag &lt;em&gt; é uma tag com semantica)</p>  <!--semantica-->
+    <h2>Texto marcado</h2>
+    <p>Podemos criar tambem <mark>um texto marcado</mark> usando a tag &<mark> &lt;mark&gt; </mark>;</p>
+    <p>Podemos criar tambem <mark style="background-color: rgb(194, 29, 0);">um texto marcado</mark> usando outra cor, com a tag <mark> &lt;mark style background-color&gt; </mark>;</p>
+    <h2>Caso queira que todos os &lt;mark&gt; fiquem da mesma cor, mudamos a cor no cabeçalho da seguinte forma:</h2>
+    <p>&lt;style&gt;</p>
+       <p>
+           mark {
+               background-color:  lime
+           }</p> <!--exemplo utilizado neste cabeçalho-->
+           <p>&lt;/style&gt;</p>
+           <h2>Texto grande e pequeno</h2>
+       <P>Estamos criando um <big>texto garnde</big> e um <small>texto pequeno</small> nesse paragrafo</P><!--a tag <big> não é indicada para se usar-->
+       <h2>Texto deletado</h2> 
+       <p>Podemos marcar <del>um tetxo como excluido</del> para indicar que ele deve ser lido mas não considerado.</p>
+       <h2>texto inserido</h2>
+       <p>Podemos marcar <ins>um texto com inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois. (usando a tag &lt;ins&gt;), (semantica)</p> <!--semantica-->
+       <p>Existe também o texto <u>sublinhado</u> com  a tag &lt;u&gt; (não semantica)</p><!--não semantica-->
+       <h2>Subscrito</h2>
+       <p>Para inserir coisas do tipo: x<sup>20</sup>+3</p> <!--a tag <sup> é para deixar o texto suspenso(emcima)-->
+       <h2>Texto Subscrito</h2>
+       <p>Para inserir coisas do tipo H<sub>2</sub>O</p><!--a tag <sub> é para deixar o texto inferior (embaixo)-->
+</body>
+</html>
